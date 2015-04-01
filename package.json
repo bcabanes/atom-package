@@ -1,0 +1,27 @@
+{
+    "name": "atom-package-test",
+    "main": "./lib/main.js",
+    "version": "0.0.1",
+    "dscription": "This is a test package to see atom's behaviours.",
+    "homepage": "https://github.com/bcabanes",
+    "repository": "https://github.com/bcabanes/atom-package",
+    "bugs": {
+        "url": "https://github.com/bcabanes/atom-package/issue"
+    },
+    "license": "MIT",
+    "author": {
+        "name": "Benjamin Cabanes",
+        "email": "contact@benjamincabanes.com"
+    },
+    "engines": {
+        "atom": ">=0.174.0 <2.0.0"
+    },
+    "dependencies": {
+        "atom-message-panel": "1.*"
+    },
+    "keywords": [
+        "atom",
+        "package",
+        "test"
+    ]
+}
